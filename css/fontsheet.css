@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	padding-top: 70px;
+}
+
+.table a{
+	text-decoration:underline;
+}
+
+.table td {
+	text-align: left;
+}
+
+.table th {
+	font-size:18px;
+}
+
+.navbar-fixed-top {
+	background-color: #DEE0D5;
+}
+
+.nav a{
+	color: #000;
+    display:inline;
+}
+
+.navbar-fixed-top .navbar-nav > li > a:hover,
+.navbar-fixed-top .navbar-nav > li > a:focus {
+  text-decoration:underline;
+}
+
+.navbar-fixed-top .navbar-nav > .active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: #ebece5;
+}
+
+.navbar-fixed-top .navbar-brand {
+	color:#D84E13;
+	font-size: 24px;
+	font-weight:500;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  background-color: rgb(255,255,255);
+  margin-right:5px;
+}
+
+.container {
+	max-width: 780px;
+}
+
+.footer {
+	text-align:right;
+}
+
+.profile-pic {
+	margin:10px;
+	float:left;
+}
+
+.profile-text {
+	min-width: 256px;
+	padding:10px;
+	overflow: hidden;
+	display:block;
+}
